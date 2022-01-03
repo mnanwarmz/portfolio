@@ -59,12 +59,13 @@
     </nav>
 
     <div class="container-fluid p-0">
-
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
             <div class="w-100">
                 <h1 class="mb-0">Anwar
                     <span class="text-primary">Zaid</span>
                 </h1>
+            <h4 id="typewriter"> Software Engineer </h4>
+
                 <div class="subheading mb-5">
                     <a href="mailto:code.anwar.zaid@gmail.com">code.anwar.zaid@gmail.com</a>
                 </div>
@@ -331,12 +332,25 @@
             <div class="w-100">
                 <h2 class="mb-5">Public Projects</h2>
                 <ul class="fa-ul mb-0">
-                    <a href="https://centre.tutory.my/">
-                        <li style="font-size: small;">
+                    <a href="https://tutory.my"  rel="noopener">
+                        <li style="font-size:x-large;" class="text-center" >
                             <i class="fa-li fas fa-caret-right"></i>
-                            Tutory : Collaborative Education Platform
+                            <!-- <h3> -->
+                                Tutory : Collaborative Education Platform 
+                            <!-- </h3> -->
                         </li>
                     </a>
+                    <div class="text-center">
+                        <h4>Laravel, VueJS</h4>
+                        <p>
+                            An education platform which was built with the aim of providing a platform for students to learn and share knowledge.
+                        </p>
+                    </div>
+                    <div class="justify-content-end d-flex rounded flex-column" id="tutory_images">
+                        <img src="img/landing.png" alt="Tutory" style="width: 600px;">
+                        <img src="img/Group_90.png" alt="Tutory" style="width: 600px;">
+                        <img src="img/Forum.png" alt="Tutory" style="width: 600px;">
+                    </div>
                 </ul>
             </div>
         </section>
@@ -347,8 +361,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
 
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/resume.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/resume.min.js"></script>
     <script src="js/fontawesome.min.js"></script>
 
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -357,5 +371,16 @@
 
 
 </body>
+
+<style>
+    /* center images */
+    #tutory_images img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+</style>
+
 
 </html>
